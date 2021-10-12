@@ -1,0 +1,530 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Alfa Slab One', cursive; */
+@media (max-width:767px) and (min-width:576px){
+
+    .banner-part .banner .content h1 {
+        font-size: 85px;
+        letter-spacing: 10px;
+}
+.order-part .heading h1{
+    font-size: 45px;
+}
+.event .slide-1 .content h1{
+    font-size: 36px;
+}
+.book-table .heading h1{
+    font-size: 45px;
+}
+
+}
+@media(max-width:767px){
+    .header1 .header-logo{
+        display: none;
+    }
+    .banner-part .banner .image img {
+        width: 95%;
+        height: 95%;
+        margin-left: 20px;
+    }
+    .header1 .delivery {
+        display: flex;
+        justify-content: left;
+        margin: 20px auto auto 25px;
+    }
+    .navbar-light .navbar-brand{
+        display: inherit;
+    }
+    .navbar{
+        padding-top: 0;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        text-align:right;
+    }
+    .banner-part .banner .content {
+        padding-top: 50px;
+        text-align: center;
+        padding-left: 10px;
+    }
+    .banner-part .banner .content p {
+        margin: 18px auto;
+    }
+    .suggestion{
+        min-height: 158vh;
+    }
+    .suggestion .hg {
+        margin-top: 20px;
+    }
+    .suggestion .burger-1{
+        border-radius: 5px;
+    }
+    .order-part .orders .order-box {
+        margin-bottom: 50px;
+    }
+    .book-table{
+        background-image: none;
+        margin-bottom: 20px;
+    }
+    .banner-part .banner .price {
+        position: absolute;
+        top: 78%;
+        left: 18%;
+        transform: translate(-18%,-78%);
+    }
+    .banner-part .banner .image .price .box-1 {
+        width: 135px;
+        height: 135px;}
+        .banner-part .banner .image .price .box-2 h1 {
+            font-size: 45px;
+            margin-top: 5%;
+        }
+        .order-part .heading p{
+            width: 100%;
+        }
+        .order-part .orders .order-box img {
+            width: 100%;
+        }
+        .book-table form {
+            padding-top: 30px;
+        }
+        .book-table form input {
+            margin-bottom: 18px;
+            padding: 8px 15px;
+            font-size: 20px;
+        }
+        .book-table .heading h1{
+            margin-bottom: 0;
+        }
+        footer .footer-top .logo-content .logo-part .image {
+            width: 35%;
+            margin: 30px auto 20px 0px;
+        }
+        footer .footer-top .logo-content .content p {
+            width: 100%;
+            font-size: 16px;
+            margin-left: 0;
+        }
+        footer .footer-top .logo-content {
+            min-height: 70vh;
+            margin: 0 20px 30px 20px;
+            padding: 0;
+        }
+        footer .footer-top .address ul{
+            padding: 0;
+            margin-bottom: 10px;
+        }
+        footer .footer-top .address{
+            padding: 0 10px;
+            margin-bottom: 10px;
+        }
+        footer .footer .content {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        footer .footer .social-icon ul {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            padding-bottom: 10px;
+        }
+}
+@media(max-width:575px){
+    .banner-part .banner .content p {
+        font-size: 15px;
+    }
+    .banner-part .banner .content h1{
+        font-size: 75px;
+    }
+    .banner-part .banner .content h3{
+        font-size: 50px;
+    }
+    .banner-part .banner .image .price .box-1 {
+        width: 120px;
+        height: 120px;
+    }
+    .banner-part .banner .image .price .box-2 h1 {
+        font-size: 38px;
+        margin-top: 15%;
+    }
+    .banner-part .banner .image .price .box-2 h3{
+        font-size: 17px;
+    }
+    .order-part .heading h1{
+        font-size: 40px;
+    }
+    .order-part .heading p{
+        font-size: 16px;
+    }
+    .order-part .orders .order-box img{
+        width: 90%;
+    }
+    .order-part .orders .order-box .content h2{
+        font-size: 35px;
+    }
+    .order-part .orders .order-box .content .order-button{
+        font-size: 14px;
+    }
+    .event .slide-1 .content h1{
+        font-size: 35px;
+    }
+    .event .slide-1 .content h3{
+        font-size: 27px;
+    }
+    .event .slide-1 .content p{
+        font-size: 17px;
+    }
+    .event .slide-1 {
+        padding: 20px;
+        box-shadow: 0 20px 38px 0 #80808054;
+    }
+    .owl-dots{
+        padding-left: 0;
+        padding-top: 12px;
+    }
+    .book-table .heading h1{
+        font-size: 40px;
+    }
+    .book-table .heading h3{
+        font-size: 28px;
+    }
+    .book-table form input[type=submit]{
+        font-size: 18px;
+    }
+    .book-table{
+        min-height: 110vh;
+    }
+    footer .footer-top .logo-content .content p{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+}
+@media(max-width:425px){
+    .header1 .delivery{
+        padding-left: 0;
+    }
+    .navbar-light .navbar-brand img {
+        width: 75%;
+        margin-left: 5%;
+    }
+    .banner-part .banner .content{
+        padding-top: 35px;
+    }
+    .banner-part .banner .content h1{
+        font-size: 65px;
+    }
+    .banner-part .banner .content h3{
+        font-size: 44px;
+    }
+    .banner-part .banner .image img {
+        width: 100%;
+        height: 100%;
+        margin-left: 15px;
+    }
+    .banner-part .banner .image .price .box-1 {
+        width: 100px;
+        height: 100px;
+    }
+    .banner-part .banner .image .price .box-2 h1 {
+        font-size: 30px;
+        margin-top: 13%;
+    }
+    .banner-part .banner .image .price .box-2 h1 span{
+        font-size: 20px;
+    }
+    .banner-part .banner .price {
+        position: absolute;
+        top: 86%;
+        left: 19%;
+        transform: translate(-19%,-86%);
+    }
+    .suggestion .content h1{
+        font-size: 28px;
+    }
+    .suggestion .content h3{
+        font-size: 20px;
+    }
+    .order-part .heading h3 {
+        margin: 15px auto;
+    }
+    .order-part .heading h1{
+        font-size: 35px;
+    }
+    .order-part .heading p{
+        font-size: 14px;
+        padding: 0;
+    }
+    .order-part .orders .order-box img{
+        width: 95%;
+    }
+    .order-part .orders .order-box .content h2 {
+        font-size: 30px;
+    }
+    .order-part .orders .order-box .content p {
+        font-size: 16px;
+        margin: auto 10px 5px 10px;
+    }
+    .event .slide-1 .content h1{
+        font-size: 28px;
+    }
+    .event .slide-1 .content h3{
+        font-size: 22px;
+    }
+    .event .slide-1 .content p{
+        font-size: 15px;
+    }
+    .book-table .heading h3 {
+        font-size: 25px;
+    }
+    .book-table .heading h1{
+        font-size: 32px;
+    }
+    .book-table form input{
+        font-size: 16px;
+    }
+    .book-table form input[type=submit]{
+        font-size: 16px;
+    }
+    .book-table{
+        min-height: 100vh;
+    }
+    footer .footer-top .logo-content {
+        min-height: 65vh;
+        margin: 0 10px 30px 10px;
+    }
+    footer {
+        margin: 0 16px 40px;
+    }
+    footer .footer-top .logo-content .logo-part .image {
+        width: 47%;
+        margin: 25px auto 14px 0px;
+    }
+    footer .footer-top .logo-content .content p{
+        font-size: 14px;
+    }
+    footer .footer-top .address ul li{
+        font-size: 19px;
+    }
+    footer .footer .content{
+        margin-bottom: 0;
+    }
+    footer .footer .social-icon ul li{
+        margin-left: 0;
+    }
+    footer .footer .social-icon ul {
+        justify-content: space-around;
+        width: 68%;
+        margin: auto auto 15px;
+    }
+    footer .footer .social-icon ul li{
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .footer .social-icon ul li i{
+        font-size: 16px;
+    }
+}
+@media(max-width:375px){
+    .navbar-light .navbar-brand img{
+        width: 70%;
+    }
+    .banner-part .banner .content {
+        padding-top: 20px;
+    }
+    .banner-part .banner .content h1 {
+        font-size: 50px;
+    }
+    .banner-part .banner .content h3 {
+        font-size: 35px;
+    }
+    .banner-part .banner .image .price .box-1 {
+        width: 88px;
+        height: 88px;
+    }
+    .banner-part .banner .image .price .box-2 h1 {
+        font-size: 25px;
+        margin-top: 13%;
+    }
+    .banner-part .banner .image .price .box-2 h3 {
+        font-size: 15px;
+    }
+    .banner-part .banner .image .price .box-2 h1 span{
+        font-size: 16px;
+    }
+    .suggestion .content h3 {
+        font-size: 18px;
+    }
+    .suggestion .content h1 {
+        font-size: 25px;
+    }
+    .order-part .heading h3 {
+        font-size: 18px;
+    }
+    .order-part .heading h3 {
+        margin: 8px auto;
+    }
+    .order-part .heading h1 {
+        font-size: 30px;
+    }
+    .order-part .orders .order-box .content h2 {
+        font-size: 25px;
+    }
+    .order-part .orders .order-box .content p{
+        font-size: 14px;
+    }
+    .order-part .orders .order-box .content .order-button{
+        font-size: 12px;
+    }
+    .order-part .orders .order-box {
+        margin-bottom: 35px;
+    }
+    .event .slide-1 .content h3 {
+        font-size: 20px;
+    }
+    .event .slide-1 .content h1 {
+        font-size: 25px;
+    }
+    .event .slide-1 .content p {
+        font-size: 14px;
+    }
+    .book-table .heading {
+        padding-top: 50px;
+    }
+    .book-table .heading h3 {
+        font-size: 22px;
+    }
+    .book-table .heading h1 {
+        font-size: 28px;
+    }
+    .book-table form input {
+        margin-bottom: 15px;
+        padding: 6px 12px;
+    }
+    .book-table form input[type=submit]{
+        font-size: 14px;
+    }
+    .book-table{
+        min-height: 86vh;
+    }
+    footer .footer .content p{
+        font-size: 16px;
+    }
+    footer .footer .social-icon ul{
+        width: 75%;
+    }
+}
+@media(max-width:320px){
+    .header1 .delivery{
+        padding: 0;
+        margin: 10px 0 0 20px;
+    }
+    .header1 .delivery .content p{
+        font-size: 12px;
+    }
+    .header1 .delivery .image{
+        display: none;
+    }
+    .navbar-light .navbar-brand img{
+        width: 100%;
+    }
+    .navbar-light .navbar-brand{
+        width: 50%;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 15px;
+    }
+    .banner-part .banner .content{
+        padding-top: 10px;
+    }
+    .banner-part .banner .content p {
+        font-size: 14px;
+    }
+    .banner-part .banner .content h1 {
+        font-size: 40px;
+    }
+    .banner-part .banner .content h3 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .banner-part .banner .image .price .box-1 {
+        width: 70px;
+        height: 70px;
+    }
+    .banner-part .banner .image .price .box-2 h3 {
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    .banner-part .banner .price {
+        position: absolute;
+        top: 82%;
+        left: 20%;
+        transform: translate(-20%,-82%);
+    }
+    .suggestion {
+        min-height: 110vh;
+        margin-top: 50px;
+    }
+    .suggestion .content{
+        padding-top: 10px;
+        margin-left: 12px;
+    }
+    .suggestion .content h3{
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .suggestion .content h1{
+        font-size: 22px;
+    }
+    .order-part .heading h3 {
+        margin: 0px auto;
+        font-size: 16px;
+    }
+    .order-part .heading h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .order-part .heading p{
+        margin-bottom: 30px;
+    }
+    .order-part .orders .order-box .content h2{
+        font-size: 22px;
+    }
+    .order-part .orders .order-box .content p{
+        margin-bottom: 0;
+    }
+    .event .slide-1 .content h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .book-table .heading h1{
+        font-size: 25px;
+    }
+    footer .footer-top .logo-content .logo-part .image {
+        width: 58%;
+        margin: 20px auto 8px 0px;
+    }
+    footer .footer-top .logo-content .content p{
+        font-size: 12px;
+    }
+    footer .footer-top .address{
+        margin-top: 10px;
+    }
+    footer .footer-top .address ul li{
+        font-size: 15px;
+    }
+    footer .footer-top .logo-content {
+        margin: 0 10px 15px 10px;
+    }
+    footer .footer .content p{
+        font-size: 15px;
+    }
+    footer .footer .social-icon ul{
+        width: 85%;
+    }
+    footer .footer .social-icon ul li{
+        height: 30px;
+        width: 30px;
+    }
+}
